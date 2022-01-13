@@ -3,10 +3,9 @@
 //
 #ifndef ANALYTICAL_MODELING_TEST1_H
 #define ANALYTICAL_MODELING_TEST1_H
-#include "flame.h"
+#include "../../include/flame.h"
 //#include "../../flame/lib/flame.h"
 //#include "../../flame/lib/Measurable.h"
-#include "Sharable.h"
 //#include "../../flame/lib/Sharable.h"
 
 // //CPU

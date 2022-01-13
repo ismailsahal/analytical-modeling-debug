@@ -8,10 +8,10 @@
 #include <boost/test/included/unit_test.hpp>
 #include <boost/property_tree/ptree.hpp>
 #include <boost/property_tree/json_parser.hpp>
-#include "Traverser.h"
+#include "../src/traverser/Traverser.h"
 
 //#include "../Traverser/src/Traverser.h"
-#include "Test1.h"
+#include "./test1/Test1.h"
 //#include "Test#2/Test2.h"
 
 namespace json = boost::property_tree::json_parser;

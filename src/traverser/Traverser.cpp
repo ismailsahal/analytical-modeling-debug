@@ -7,8 +7,8 @@
 #include <algorithm>
 #include <iostream>
 #include "Traverser.h"
-#include "../../flame/lib/Metric.h"
-#include "../../flame/lib/Measurable.h"
+//#include "../../flame/lib/Metric.h"
+//#include "../../flame/lib/Measurable.h"
 
 double Traverser::traverse(Flame::Machine AMM, std::map<Flame::Tasks*, std::vector<std::string>> CFG){
     int timeStep = 1;

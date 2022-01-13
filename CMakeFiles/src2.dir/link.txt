@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsrc2.a CMakeFiles/src2.dir/tests/test1/Test1.cpp.o
+/usr/bin/ranlib libsrc2.a

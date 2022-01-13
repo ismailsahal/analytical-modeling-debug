@@ -2,14 +2,14 @@
 // Created by andym on 7/26/2021.
 //
 
-/*#ifndef ANALYTICAL_MODELING_TASKS_H
+#ifndef ANALYTICAL_MODELING_TASKS_H
 #define ANALYTICAL_MODELING_TASKS_H
 
 
 #include <string>
 #include <memory>
 #include <vector>
-#include "../../flame/lib/flame.h"
+#include "../../include/flame.h"
 
 namespace Flame{
     class Resource;
@@ -44,4 +44,4 @@ class Tasks {
 };
 
 
-#endif //ANALYTICAL_MODELING_TASKS_H*/
+#endif //ANALYTICAL_MODELING_TASKS_H

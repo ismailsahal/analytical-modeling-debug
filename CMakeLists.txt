@@ -19,8 +19,9 @@ include_directories(${Boost_INCLUDE_DIR} include tests tests/test1 tests/test2 t
 #include(src/traverser/CMakeLists.txt)
 #include(src/tasks/CMakeLists.txt)
 #include(tests/test1/CMakeLists.txt)
-
-set(SOURCES /home/ismail/analytical-modeling-clear/tests/unitTests.cpp /home/ismail/analytical-modeling-clear/include/flame.h /home/ismail/analytical-modeling-clear/src/traverser/Traverser.h /home/ismail/analytical-modeling-clear/src/tasks/Tasks.h /home/ismail/analytical-modeling-clear/src/flame/Interconnect.cpp /home/ismail/analytical-modeling-clear/tests/test1/Test1.h)
+add_library(src ./src/traverser/Traverser.cpp)
+add_library(src2 ./tests/test1/Test1.cpp)
+set(SOURCES /home/sahal/analytical-modeling-debug/analytical-modeling-clear/include/flame.h /home/sahal/analytical-modeling-debug/analytical-modeling-clear/src/traverser/Traverser.h /home/sahal/analytical-modeling-debug/analytical-modeling-clear/src/tasks/Tasks.h /home/sahal/analytical-modeling-debug/analytical-modeling-clear/src/flame/Interconnect.cpp /home/sahal/analytical-modeling-debug/analytical-modeling-clear/tests/test1/Test1.h)
 
 
 set(SOURCE_DIRS ./tests ./include ./src/traverser ./src/tasks ./src/flame ./tests/test1)
@@ -30,8 +31,9 @@ set(SOURCE_DIRS ./tests ./include ./src/traverser ./src/tasks ./src/flame ./test
 
 set(CMAKE_BUILD_TYPE Debug)
 
-add_executable(Boost_Tests_run ${SOURCES})
+add_executable(Boost_Tests_run ./tests/unitTests.cpp ${SOURCES})
 
 #link_directories(${SOURCE_DIRS})
 #target_link_directories(Boost_Tests_run PUBLIC ${Boost_LIBRARIES} ${SOURCE_DIRS})
-target_link_libraries(Boost_Tests_run PUBLIC ${BOOST_LIBRARIES} ${SOURCES})
+#target_link_libraries(Boost_Tests_run PUBLIC ${BOOST_LIBRARIES} ${SOURCES})
+target_link_libraries(Boost_Tests_run PUBLIC src src2)

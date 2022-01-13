@@ -5,8 +5,8 @@
 #ifndef ANALYTICAL_MODELING_TRAVERSER_H
 #define ANALYTICAL_MODELING_TRAVERSER_H
 
-#include "Tasks.h"
-#include "flame.h"
+#include "../tasks/Tasks.h"
+#include "../../include/flame.h"
 //#include "../../flame/lib/flame.h"
 
 #include <set>
