@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Boost_Tests_run.dir/tests/unitTests.cpp.o CMakeFiles/Boost_Tests_run.dir/src/flame/Interconnect.cpp.o -o Boost_Tests_run  tests/unitTests.cpp include/flame.h src/traverser/Traverser.h src/tasks/Tasks.h src/flame/Interconnect.cpp tests/test1/Test1.h 

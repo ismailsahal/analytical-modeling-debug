@@ -1,0 +1,12 @@
+{
+  "taskAssignments":{
+    "start" : "CPU",
+    "A" : "CPU1Core1",
+    "B" : "CPU1Core2",
+    "C" : "CPU1Core1",
+    "D" : "CPU1Core2",
+    "E" : "CPU1Core1",
+    "F" : "CPU1Core2",
+    "end" : "CPU"
+  }
+}

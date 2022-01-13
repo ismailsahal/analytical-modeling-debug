@@ -1,0 +1,4 @@
+#set_property(LANGUAGES C CXX)
+
+list(APPEND SOURCES ${CMAKE_CURRENT_LIST_DIR}/flame.h)
+#add_library(INCLUDETHINGS ${CMAKE_CURRENT_LIST_DIR}/flame.h)
