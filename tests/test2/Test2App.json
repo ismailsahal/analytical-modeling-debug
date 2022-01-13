@@ -1,0 +1,68 @@
+{
+  "application":{
+    "start":{
+      "name" : "start",
+      "GFLOPs":"0",
+      "GBYTEs":"0",
+      "traits":[null],
+      "depends":[]
+    },
+
+    "taskA":{
+      "name" : "A",
+      "GFLOPs":"55",
+      "GBYTEs":"34",
+      "traits":["SIMD", "FP32"],
+      "depends" : ["start"]
+    },
+
+    "taskB":{
+      "name" : "B",
+      "GFLOPs":"75",
+      "GBYTEs":"41",
+      "traits":["SIMD", "FP32"],
+      "depends" : ["start"]
+    },
+
+    "taskC":{
+      "name" : "C",
+      "GFLOPs":"30",
+      "GBYTEs":"16",
+      "traits":["SIMD", "FP32"],
+      "depends" : ["start"]
+    },
+
+    "taskD":{
+      "name" : "D",
+      "GFLOPs":"120",
+      "GBYTEs":"125",
+      "traits":["SIMD", "FP32"],
+      "depends" : ["A","B","C"]
+    },
+
+    "taskE":{
+      "name" : "E",
+      "GFLOPs":"60",
+      "GBYTEs":"38",
+      "traits":["SIMD", "FP32"],
+      "depends" : ["A","B","C"]
+    },
+
+    "taskF":{
+      "name" : "F",
+      "GFLOPs":"160",
+      "GBYTEs":"119",
+      "traits":["SIMD", "FP32"],
+      "depends" : ["A","B","C"]
+    },
+
+    "end":{
+      "name" : "end",
+      "GFLOPs":"0",
+      "GBYTEs":"0",
+      "traits":["SIMD"],
+      "depends" : ["D","E","F"]
+    }
+
+  }
+}

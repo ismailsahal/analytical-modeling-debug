@@ -1,0 +1,12 @@
+{
+  "taskAssignments":{
+    "start" : "CPU",
+    "A" : "CPU",
+    "B" : "GPU",
+    "C" : "DLA",
+    "D" : "CPU",
+    "E" : "GPU",
+    "F" : "DLA",
+    "end" : "CPU"
+  }
+}

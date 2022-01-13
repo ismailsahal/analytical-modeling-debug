@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/ismail/analytical-modeling-clear/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9 -I/home/ismail/analytical-modeling-clear/include -I/home/ismail/analytical-modeling-clear/tests -I/home/ismail/analytical-modeling-clear/tests/test1 -I/home/ismail/analytical-modeling-clear/tests/test2 -I/home/ismail/analytical-modeling-clear/tests/test3 -I/home/ismail/analytical-modeling-clear/src -I/home/ismail/analytical-modeling-clear/src/flame -I/home/ismail/analytical-modeling-clear/src/tasks -I/home/ismail/analytical-modeling-clear/src/traverser -g -o CMakeFiles/Boost_Tests_run.dir/tests/unitTests.cpp.o -c /home/ismail/analytical-modeling-clear/tests/unitTests.cpp",
+  "file": "/home/ismail/analytical-modeling-clear/tests/unitTests.cpp"
+},
+{
+  "directory": "/home/ismail/analytical-modeling-clear/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9 -I/home/ismail/analytical-modeling-clear/include -I/home/ismail/analytical-modeling-clear/tests -I/home/ismail/analytical-modeling-clear/tests/test1 -I/home/ismail/analytical-modeling-clear/tests/test2 -I/home/ismail/analytical-modeling-clear/tests/test3 -I/home/ismail/analytical-modeling-clear/src -I/home/ismail/analytical-modeling-clear/src/flame -I/home/ismail/analytical-modeling-clear/src/tasks -I/home/ismail/analytical-modeling-clear/src/traverser -g -o CMakeFiles/Boost_Tests_run.dir/src/flame/Interconnect.cpp.o -c /home/ismail/analytical-modeling-clear/src/flame/Interconnect.cpp",
+  "file": "/home/ismail/analytical-modeling-clear/src/flame/Interconnect.cpp"
+}
+]

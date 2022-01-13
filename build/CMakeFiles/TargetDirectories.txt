@@ -1,0 +1,3 @@
+/home/ismail/analytical-modeling-clear/build/CMakeFiles/Boost_Tests_run.dir
+/home/ismail/analytical-modeling-clear/build/CMakeFiles/edit_cache.dir
+/home/ismail/analytical-modeling-clear/build/CMakeFiles/rebuild_cache.dir
